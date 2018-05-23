@@ -1,1 +1,17 @@
-/home/chimichanga/.gitconfig
+
+[user]
+    name = jamacmang
+    email = julianmacmang@gmail.com
+    username = sbpipb
+
+[core]
+	editor = vim
+
+
+
+[alias]
+    st = status
+    df = diff
+    co = checkout
+    sh = stash
+    shp = stash pop
