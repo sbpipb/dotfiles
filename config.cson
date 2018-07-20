@@ -1,0 +1,48 @@
+"*":
+  "atom-ui-tweaks":
+    editor:
+      lineNumberStyle: "stealth"
+      stealthIndentGuides: true
+      topPadding: "16px"
+    status:
+      barPosition: "top"
+      boldFileName: true
+      hideEncodingStatus: true
+      hideLineEndingStatus: true
+      hideVimModePlusStatus: true
+      inactiveOpacity: "60%"
+    tab:
+      borderRadius: "xsmall"
+      leftMargin: "large"
+      separatorStyle: "slight"
+    terminal:
+      cursorColor: "gray"
+      hideAddNewTerminalButton: true
+      hideCloseTerminalButton: true
+      hideInsertTextButton: true
+      lineHeight: "1.25em"
+      reduceSeparatorLineIntensity: true
+      stealthToolbar: true
+      syntaxAdaptiveBackgroundColor: true
+    tree:
+      autoHideTabBar: true
+      reduceIconSize: true
+      tabBarPosition: "bottom"
+    ui:
+      compactFuzzyFinder: true
+      hideFindAndReplaceCloseButton: true
+      hidePaneSeparators: true
+  core:
+    autoHideMenuBar: true
+    telemetryConsent: "no"
+  editor:
+    fontSize: 12
+  "exception-reporting":
+    userId: "ca7a2a60-ddce-4050-9a21-766d31eb3500"
+  "linter-ui-default": {}
+  "prettier-atom": {}
+  "status-bar": {}
+  welcome:
+    showOnStartup: false
+"linter-rubocop":
+  command: "/home/chimichanga/.rbenv/shims/rubocop"
