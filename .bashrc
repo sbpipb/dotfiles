@@ -98,10 +98,11 @@ alias becs='bundle exec rails console'
 
 
 alias dcm='docker-compose'
-
-
-
-
+#alias dr='docker-compose run --rm --service-ports web'
+alias dr='docker-compose run'
+alias gco='git checkout'
+alias dcu='docker-compose up'
+alias dcs='docker-compose stop && docker-compose build && docker-compose up -d'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
