@@ -89,17 +89,21 @@ fi
 
 # some more ls aliases
 alias ll='ls -alF'
-alias la='ls -A'
+alias la='ls -lah'
 alias l='ls -CF'
 
 alias bes='bundle exec rails s'
 alias becs='bundle exec rails console'
 
 
-
+alias prnto='bundle exec pronto run -c origin/develop'
 alias dcm='docker-compose'
 #alias dr='docker-compose run --rm --service-ports web'
 alias dr='docker-compose run'
+alias gst='git status'
+alias gpr='git pull --rebase origin'
+alias gp='git push'
+alias gpo='git push origin'
 alias gco='git checkout'
 alias dcu='docker-compose up'
 alias dcs='docker-compose stop && docker-compose build && docker-compose up -d'
