@@ -1,17 +1,8 @@
-# . files to make life a bit better.
-
-## .bashrc file ##
-
-## .tmux.conf ##
+# .files to make life a bit better.
 
 
-plugins
-git
-
-
-bunch of aliases 
-docker-compose
-python
-bundler
-
-
+Configs
+  - bash
+  - git
+  - tmux
+  - vim
